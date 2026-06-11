@@ -1,34 +1,34 @@
 # -----------------------------------------------------------------------------
-# Site settings
+# 사이트 설정
 # -----------------------------------------------------------------------------
 
-title: Jo SeongMin # the website title (if blank, full name will be used instead)
+title: Jo SeongMin # 웹사이트 제목 (비어 있으면 전체 이름이 대신 사용됩니다)
 first_name: Jo
 middle_name: ""
 last_name: SeongMin
 contact_note: >
-  You can even add a little note about which of these is the best way to reach you.
-description: > # the ">" symbol means to ignore newlines until "footer_text:"
+  연락할 때 가장 좋은 방법에 대해 짧은 메모를 추가할 수 있습니다.
+description: > # ">" 기호는 "footer_text:"까지 줄바꿈을 무시합니다
   A simple, whitespace theme for academics. Based on [*folio](https://github.com/bogoli/-folio) design.
 footer_text: >
   Powered by <a href="https://hanbi.com/" target="_blank">hanbi</a> with <a href="https://github.com/alshedivat/al-folio">al-folio</a> theme.
   Hosted by <a href="https://pages.github.com/" target="_blank">GitHub Pages</a>.
   Photos from <a href="https://unsplash.com" target="_blank">Unsplash</a>.
-keywords: hanbi, hanbi-theme, academic-website, portfolio-website # add your own keywords or leave empty
-lang: ko # the language of your site (for example: en, fr, cn, ru, etc.)
-icon: ⚛️ # the emoji used as the favicon (alternatively, provide image name in /assets/img/)
+keywords: hanbi, hanbi-theme, academic-website, portfolio-website # 키워드를 추가하거나 비워 둘 수 있습니다
+lang: ko # 사이트의 언어 (예: en, fr, cn, ru 등)
+icon: ⚛️ # 파비콘으로 사용할 이모지 (또는 /assets/img/에 이미지 이름 제공)
 
-url: https://hanbi06.github.io # the base hostname & protocol for your site
-baseurl: "" # the subpath of your site, e.g. /blog/. Leave blank for root
-last_updated: true # set to true if you want to display last updated in the footer
-impressum_path: # set to path to include impressum link in the footer, use the same path as permalink in a page, helps to conform with EU GDPR
-back_to_top: false # set to false to disable the back to top button
+url: https://hanbi06.github.io # 사이트의 기본 호스트 이름 및 프로토콜
+baseurl: "" # 사이트의 서브 경로, 예: /blog/. 루트인 경우 빈 문자열로 둡니다
+last_updated: true # footer에 마지막 업데이트를 표시하려면 true로 설정
+impressum_path: # footer에 Impressum 링크를 포함하려면 경로를 설정하세요. 페이지의 permalink와 동일한 경로를 사용하며 EU GDPR 준수에 도움을 줍니다.
+back_to_top: false # 상단으로 이동 버튼을 비활성화하려면 false로 설정
 
 # -----------------------------------------------------------------------------
-# Theme
+# 테마
 # -----------------------------------------------------------------------------
 
-# repo color theme
+# 저장소 색상 테마
 repo_theme_light: default # https://github.com/anuraghazra/github-readme-stats/blob/master/themes/README.md
 repo_theme_dark: dark # https://github.com/anuraghazra/github-readme-stats/blob/master/themes/README.md
 repo_trophies:
@@ -36,9 +36,9 @@ repo_trophies:
   theme_light: flat # https://github.com/ryo-ma/github-profile-trophy
   theme_dark: gitdimmed # https://github.com/ryo-ma/github-profile-trophy
 
-# External service URLs for repository page
-# To use a different instance or service for displaying GitHub stats and trophies,
-# update these URLs. These are used in the repository templates.
+# 리포지토리 페이지용 외부 서비스 URL
+# GitHub 통계 및 트로피를 표시하기 위해 다른 인스턴스나 서비스를 사용하려면
+# 이 URL을 업데이트하세요. 이 값들은 리포지토리 템플릿에서 사용됩니다.
 external_services:
   github_readme_stats_url: https://github-readme-stats.vercel.app
   github_profile_trophy_url: https://github-profile-trophy.vercel.app
@@ -74,13 +74,13 @@ al_folio:
     auto_apply_safe_fixes: false
 
 # -----------------------------------------------------------------------------
-# RSS Feed
+# RSS 피드
 # -----------------------------------------------------------------------------
-# will use title and url fields
-# Take a look to https://github.com/jekyll/jekyll-feed for more customization
+# title 및 url 필드를 사용합니다
+# 더 많은 커스터마이징은 https://github.com/jekyll/jekyll-feed 를 참조하세요
 
 # -----------------------------------------------------------------------------
-# Layout
+# 레이아웃
 # -----------------------------------------------------------------------------
 
 navbar_fixed: true
@@ -90,44 +90,44 @@ socials_in_search: true
 posts_in_search: true
 bib_search: true
 
-# Dimensions
+# 크기
 max_width: 930px
 
 # -----------------------------------------------------------------------------
-# Open Graph & Schema.org
+# Open Graph 및 Schema.org
 # -----------------------------------------------------------------------------
-# Display links to the page with a preview object on social media.
-# see https://schema.org/docs/faq.html for more information
-serve_og_meta: false # Include Open Graph meta tags in the HTML head
-serve_schema_org: false # Include Schema.org in the HTML head
-og_image: # The site-wide (default for all links) Open Graph preview image
+# 소셜 미디어에 미리보기 객체가 있는 링크를 표시합니다.
+# 자세한 내용은 https://schema.org/docs/faq.html 를 참조하세요
+serve_og_meta: false # HTML head에 Open Graph 메타 태그를 포함합니다
+serve_schema_org: false # HTML head에 Schema.org를 포함합니다
+og_image: # 모든 링크의 기본값으로 사용할 사이트 전체 Open Graph 미리보기 이미지
 
 # -----------------------------------------------------------------------------
-# Analytics and search engine verification
+# 분석 및 검색 엔진 확인
 # -----------------------------------------------------------------------------
 
 analytics:
-  # For Google Analytics, see https://support.google.com/analytics/answer/10447272?hl=en&ref_topic=14088998&sjid=5129943941510317771-SA#zippy=%2Cgoogle-sites
-  # and follow the instructions for Google Sites. You will need to create a Google Analytics property and copy the Google tag ID.
-  google: # your Google Analytics measurement ID (format: G-XXXXXXXXXX)
-  cronitor: # cronitor RUM analytics site ID (format: XXXXXXXXX)
-  pirsch: # your Pirsch analytics site ID (length 32 characters)
-  openpanel: # your Openpanel analytics client ID (format: XXXXXXXX-XXXX-XXXX-XXXX-XXXXXXXXXXXX)
+  # Google Analytics에 대해서는 https://support.google.com/analytics/answer/10447272?hl=en&ref_topic=14088998&sjid=5129943941510317771-SA#zippy=%2Cgoogle-sites 를 참고하고
+  # Google Sites 지침을 따르세요. Google Analytics 속성을 만들어 Google 태그 ID를 복사해야 합니다.
+  google: # Google Analytics 측정 ID (형식: G-XXXXXXXXXX)
+  cronitor: # cronitor RUM 분석 사이트 ID (형식: XXXXXXXXX)
+  pirsch: # Pirsch 분석 사이트 ID (길이 32자)
+  openpanel: # Openpanel 분석 클라이언트 ID (형식: XXXXXXXX-XXXX-XXXX-XXXX-XXXXXXXXXXXX)
 
-# For Google Search Console, see https://support.google.com/webmasters/answer/9008080?hl=en#meta_tag_verification&zippy=%2Chtml-tag
-google_site_verification: # your google-site-verification ID (Google Search Console)
-bing_site_verification: # out your bing-site-verification ID (Bing Webmaster)
+# Google Search Console에 대해서는 https://support.google.com/webmasters/answer/9008080?hl=en#meta_tag_verification&zippy=%2Chtml-tag 를 참조하세요
+google_site_verification: # Google Search Console용 google-site-verification ID
+bing_site_verification: # Bing Webmaster용 bing-site-verification ID
 
 # -----------------------------------------------------------------------------
-# Blog
+# 블로그
 # -----------------------------------------------------------------------------
 
-blog_name: al-folio # blog_name will be displayed in your blog page
+blog_name: al-folio # blog_name은 블로그 페이지에 표시됩니다
 blog_description: a simple whitespace theme for academics
 permalink: /blog/:year/:title/
-lsi: false # produce an index for related posts
+lsi: false # 관련 게시물 인덱스를 생성합니다
 
-# Pagination
+# 페이지 매김
 pagination:
   enabled: true
 
@@ -135,30 +135,30 @@ related_blog_posts:
   enabled: true
   max_related: 5
 
-# Giscus comments (RECOMMENDED)
-# Follow instructions on https://giscus.app/ to setup for your repo to fill out the information below.
+# Giscus 댓글 (추천)
+# https://giscus.app의 지침을 따라 리포지토리를 설정한 후 아래 정보를 채우세요.
 giscus:
   repo: # <your-github-user-name>/<your-github-repo-name>
-  repo_id: # leave empty or specify your repo_id (see https://giscus.app/)
-  category: Comments # name of the category under which discussions will be created
-  category_id: # leave empty or specify your category_id (see https://giscus.app/)
-  mapping: title # identify discussions by post title
-  strict: 1 # use strict identification mode
-  reactions_enabled: 1 # enable (1) or disable (0) emoji reactions
-  input_position: bottom # whether to display input form below (bottom) or above (top) the comments
-  dark_theme: dark # name of the dark color scheme (preferred works well with al-folio dark mode)
-  light_theme: light # name of the light color scheme (preferred works well with al-folio light mode)
+  repo_id: # 비워 두거나 repo_id를 지정하세요 (https://giscus.app 참조)
+  category: Comments # 토론이 생성될 카테고리 이름
+  category_id: # 비워 두거나 category_id를 지정하세요 (https://giscus.app 참조)
+  mapping: title # 게시물 제목으로 토론을 식별합니다
+  strict: 1 # 엄격 식별 모드를 사용합니다
+  reactions_enabled: 1 # 이모지 반응을 활성화(1) 또는 비활성화(0)합니다
+  input_position: bottom # 댓글 입력 양식을 아래(하단) 또는 위(상단)에 표시할지 여부
+  dark_theme: dark # 다크 모드 색상 스킴 이름 (preferred는 al-folio 다크 모드와 잘 맞습니다)
+  light_theme: light # 라이트 모드 색상 스킴 이름 (preferred는 al-folio 라이트 모드와 잘 맞습니다)
   emit_metadata: 0
   lang: en
 
-# Disqus comments (DEPRECATED)
-disqus_shortname: al-folio # put your disqus shortname
+# Disqus 댓글 (사용 중단)
+disqus_shortname: al-folio # Disqus shortname을 입력하세요
 # https://help.disqus.com/en/articles/1717111-what-s-a-shortname
 
-# External sources.
-# If you have blog posts published on medium.com or other external sources,
-# you can display them in your blog by adding a link to the RSS feed.
-# Optional: Set default categories and tags for posts from each source.
+# 외부 소스
+# medium.com 또는 다른 외부 소스에 게시된 블로그 글이 있는 경우
+# RSS 피드 링크를 추가하여 블로그에 표시할 수 있습니다.
+# 선택 사항: 각 소스의 게시물에 대한 기본 카테고리와 태그를 설정하세요.
 external_sources:
   - name: medium.com
     rss_url: https://medium.com/@al-folio/feed
@@ -172,16 +172,16 @@ external_sources:
     tags: [google]
 
 # -----------------------------------------------------------------------------
-# Newsletter
+# 뉴스레터
 # -----------------------------------------------------------------------------
 
 newsletter:
   enabled: false
-  endpoint: # your loops endpoint (e.g., https://app.loops.so/api/newsletter-form/YOUR-ENDPOINT)
+  endpoint: # loops 엔드포인트 (예: https://app.loops.so/api/newsletter-form/YOUR-ENDPOINT)
   # https://loops.so/docs/forms/custom-form
 
 # -----------------------------------------------------------------------------
-# Collections
+# 컬렉션
 # -----------------------------------------------------------------------------
 
 collections:
@@ -197,7 +197,7 @@ collections:
     output: true
 
 # -----------------------------------------------------------------------------
-# Jekyll settings
+# Jekyll 설정
 # -----------------------------------------------------------------------------
 
 # Markdown and syntax highlight
